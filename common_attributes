@@ -1,0 +1,160 @@
+The attributes whoch are common for household and individual :
+
+v2a1, Monthly rent payment
+hacdor, =1 Overcrowding by bedrooms
+rooms,  number of all rooms in the house
+hacapo, =1 Overcrowding by rooms
+v14a, =1 has bathroom in the household
+refrig, =1 if the household has refrigerator
+
+v18q1, number of tablets household owns
+#r4h1, Males younger than 12 years of age
+#r4h2, Males 12 years of age and older
+r4h3, Total males in the household
+#r4m1, Females younger than 12 years of age
+#r4m2, Females 12 years of age and older
+r4m3, Total females in the household
+r4t1, persons younger than 12 years of age
+r4t2, persons 12 years of age and older
+
+r4t3, Total persons in the household, tamhog, size of the household, tamviv, number of persons living in the household, hhsize, household size, hogar_total, # of total individuals in the household
+
+
+pisonotiene, =1 if no floor at the household
+
+
+cielorazo, =1 if the house has ceiling
+
+abastaguano, =1 if no water provision
+
+noelec, =1 no electricity in the dwelling
+
+sanitario1, =1 no toilet in the dwelling
+
+energcocinar1, =1 no main source of energy used for cooking (no kitchen)
+
+
+
+
+idhogar, Household level identifier
+
+hogar_nin, Number of children 0 to 19 in household
+
+hogar_adul, Number of adults in household
+
+hogar_mayor, # of individuals 65+ in the household
+
+dependency, Dependency rate, calculated = (number of members of the household younger than 19 or older than 64)/(number of member of household between 19 and 64)
+edjefe, years of education of male head of household, based on the interaction of escolari (years of education), head of household and gender, yes=1 and no=0
+edjefa, years of education of female head of household, based on the interaction of escolari (years of education), head of household and gender, yes=1 and no=0
+meaneduc,average years of education for adults (18+)
+
+bedrooms, number of bedrooms
+overcrowding, # persons per room (r4t3/bedrooms) >1 --> overcrowding
+tipovivi1, =1 own and fully paid house
+tipovivi2, "=1 own,  paying in installments"
+tipovivi3, =1 rented
+tipovivi4, =1 precarious
+tipovivi5, "=1 other(assigned,  borrowed)"
+computer, =1 if the household has notebook or desktop computer
+television, =1 if the household has TV
+
+qmobilephone, # of mobile phones
+lugar1, =1 region Central
+lugar2, =1 region Chorotega
+lugar3, =1 region PacÃƒÂ­fico central
+lugar4, =1 region Brunca
+lugar5, =1 region Huetar AtlÃƒÂ¡ntica
+lugar6, =1 region Huetar Norte
+area1, =1 zona urbana
+area2, =2 zona rural
+
+
+
+SQBhogar_total, hogar_total squared
+SQBedjefe, edjefe squared
+SQBhogar_nin, hogar_nin squared
+SQBovercrowding, overcrowding squared
+SQBdependency, dependency squared
+SQBmeaned, square of the mean years of education of adults (>=18) in the household
+
+
+
+
+
+
+###################################
+
+61 :
+
+Id
+v2a1
+hacdor
+rooms
+hacapo
+v14a
+refrig
+v18q
+v18q1
+r4h3
+r4m3
+r4t1
+r4t2
+r4t3
+escolari
+rez_esc
+pisonotiene
+cielorazo
+abastaguadentro
+abastaguafuera
+abastaguano
+noelec
+sanitario1
+energcocinar1
+dis
+male
+female
+idhogar
+hogar_adul
+dependency
+edjefe
+edjefa
+meaneduc
+bedrooms
+overcrowding
+computer
+television
+mobilephone
+qmobilephone
+area1
+area2
+age
+SQBescolari
+SQBage
+agesq
+OutsideWall
+Floor
+Roof
+Region
+SourceOfElec
+Toilet
+SOCooking
+RubbishDisposal
+WallCondition
+RoofCond
+FloorCon
+Rent
+Education
+Relation
+Status
+dependCitizens
+
+
+
+
+
+
+
+
+
+
